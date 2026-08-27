@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Photo Enhancer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        h1 { color: #38bdf8; font-size: 24px; }
+        .btn {
+            background-color: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 12px 20px;
+            margin: 8px 0;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        input[type="file"] { display: none; }
+        .upload-btn {
+            background-color: #22c55e;
+            color: white;
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 90%;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>✨ AI Photo Enhancer</h1>
+    <p>तुमचा फोटो अपलोड करा आणि AI फिल्टर्स वापरा!</p>
+    
+    <label for="photo-upload" class="upload-btn">📁 Upload Photo</label>
+    <input type="file" id="photo-upload" accept="image/*">
+
+    <button class="btn">✨ AI Enhance</button>
+    <button class="btn">🧹 Background Remove</button>
+    <button class="btn">🎨 AI Filters</button>
+    <button class="btn" style="background-color: #eab308; color: black;">⬇️ Download Photo</button>
+</div>
+
+</body>
+</html>
